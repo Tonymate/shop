@@ -1,4 +1,6 @@
 @extends('main')
+@section('title', 'OPPC')
+
 @section('content')
 
 <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"> <!--CENTER SPLASH-->
@@ -7,8 +9,6 @@
     <p class="lead font-weight-normal">Made Simple.</p>
     <a class="btn btn-outline-secondary" href="#">Create</a>
   </div>
-  <div class="product-device shadow-sm d-none d-md-block"></div>
-  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
 
 @endsection
