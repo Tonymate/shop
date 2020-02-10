@@ -9,6 +9,7 @@
     <p class="lead font-weight-normal">Made Simple.</p>
     <a class="btn btn-outline-secondary" href="#">Create</a>
   </div>
+
 </div>
 
 @endsection
