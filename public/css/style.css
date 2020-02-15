@@ -5,3 +5,18 @@ body{
 .logo{
     padding-left: 20px;
 }
+
+.container-games {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.game-1 {
+    border: 1px #ccc solid;
+    padding: 10px;
+}

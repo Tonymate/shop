@@ -7,8 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav  mx-2" >
           <a class="nav-item nav-link text-dark" href="#">HOME</a>
-          <a class="nav-item nav-link text-dark" href="#">FEATURES</a>
           <a class="nav-item nav-link text-dark" href="#">PRICING</a>
+          <a class="nav-item nav-link text-dark" href="#">ABOUT US</a>
         </div>
 
         <div class="navbar-nav ml-auto mx-3" >
