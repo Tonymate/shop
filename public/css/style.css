@@ -1,9 +1,15 @@
-body{
+body {
     background-color: black;
 }
 
-.logo{
+.logo {
     padding-left: 20px;
+    position: relative;
+}
+
+.img-hero {
+    background-image: url(../img/background-game.png);
+    background-size: cover;
 }
 
 .container-games {
@@ -12,11 +18,39 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px;
-    
 }
 
-.game-1 {
-    border: 1px #ccc solid;
-    padding: 10px;
+.game {
+    /* border: 1px #ccc solid; */
+    padding: 15px;
+    padding-top: 5px;
+}
+
+[data-tooltip] {
+    position: relative;
+    cursor: default;
+}
+
+[data-tooltip]::after {
+    position: absolute;
+    width: 150px;
+    left: calc(50% - 75px);
+    bottom: 7%;
+    text-align: center;
+    box-sizing: border-box;
+    content: attr(data-tooltip);
+    color: black;
+    background: white;
+    padding: 3px;
+    font-size: 0.9em;
+    font-weight: bold;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
 }
