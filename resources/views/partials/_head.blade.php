@@ -7,4 +7,6 @@
 
 <link rel="stylesheet" href="css/style.css">
 
+<link rel="shortcut icon" href="img/logo.ico"/>
+
 <title>@yield('title')</title><!--CHANGE FOR EACH PAGE-->

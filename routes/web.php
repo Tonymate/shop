@@ -22,3 +22,6 @@ Route::get('/about', function () {
 Route::get('/choose-your-games', function () {
     return view('pages/choose');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

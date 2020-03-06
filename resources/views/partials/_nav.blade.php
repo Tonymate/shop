@@ -6,14 +6,14 @@
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav  mx-2" >
-          <a class="nav-item nav-link text-dark" href="/">HOME</a>
-          <a class="nav-item nav-link text-dark" href="#">PRICING</a>
-          <a class="nav-item nav-link text-dark" href="#">ABOUT US</a>
+          <a class="nav-item nav-link text-body" href="/">HOME</a>
+          <a class="nav-item nav-link text-body" href="#">PRICING</a>
+          <a class="nav-item nav-link text-body" href="#">ABOUT US</a>
         </div>
 
         <div class="navbar-nav ml-auto mx-3" >
-          <a class="nav-item nav-link text-dark" href="#">SIGN UP</a>
-          <a class="nav-item nav-link text-dark" href="#">SIGN IN</a>
+          <a class="nav-item nav-link text-body" href="#">SIGN UP</a>
+          <a class="nav-item nav-link text-body" href="#">SIGN IN</a>
         </div>    
     </div>
 </nav>
