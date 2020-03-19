@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="container-games col-md-10 p-lg-5 mx-auto my-4">
+<div class="container-games col-md-8 p-lg-5 mx-auto my-4">
   <div class="game" data-tooltip="Apex Legends">
     <img src="https://via.placeholder.com/150x200" />
   </div>
